@@ -1,6 +1,6 @@
 class rabbitmq::params {
   case $::osfamily {
-        'redhat': {
+         /(Redhat|Scientific|Fedora)/:{
           $supported  = true
           $package    = 'rabbitmq-server'
           $service    = 'rabbitmq-server'
