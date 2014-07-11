@@ -1,6 +1,6 @@
 class rabbitmq::params {
-   case $::operatingsystem {
-         /(Redhat|Scientific|Fedora)/: {
+  case $::operatingsystem {
+        /(Redhat|Scientific|Fedora)/: {
           $supported  = true
           $package    = 'rabbitmq-server'
           $service    = 'rabbitmq-server'
@@ -15,3 +15,18 @@ class rabbitmq::params {
         }
       }
 }
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                               
+                                                                                                                                      
